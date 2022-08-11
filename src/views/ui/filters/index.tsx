@@ -4,13 +4,7 @@ import { useSearchParams } from "react-router-dom";
 import { useAppSelector } from "store";
 import { getCharactersPagination } from "modules/characters/selectors";
 import { Pagination } from "views/styled/pagination";
-import {
-  FormControl,
-  InputLabel,
-  MenuItem,
-  Select,
-  TextField,
-} from "@mui/material";
+import { FormControl, MenuItem, Select, TextField } from "@mui/material";
 
 type Params = {
   [key: string]: string;
